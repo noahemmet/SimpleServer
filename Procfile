@@ -1,1 +1,1 @@
-web .build/release/SimpleServer --bind 0.0.0.0:$PORT --workdir="/app"
+web .build/release/SimpleServer --config:servers.default.port=$PORT --workdir="/app"
