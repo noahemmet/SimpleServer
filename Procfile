@@ -1,1 +1,1 @@
-web: SimpleServer --workers 3 --bind 0.0.0.0:$PORT
+web .build/release/SimpleServer --bind 0.0.0.0:$PORT
